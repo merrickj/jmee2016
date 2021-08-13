@@ -1,7 +1,7 @@
-# JMEE2016
-Simple expansion model for explanation purposes in 2016 Energy Economics paper by James Hubert Merrick "On representation of temporal variability in electricity capacity planning models" (Vol. 59, 261-274).
+# jmee2016
+Simple expansion model for explanation purposes in 2016 *Energy Economics* (Vol. 59, 261-274)  paper by James Hubert Merrick "On representation of temporal variability in electricity capacity planning models".
 
-Published version: http://dx.doi.org/10.1016/j.eneco.2016.08.001
+Published version of paper: http://dx.doi.org/10.1016/j.eneco.2016.08.001
 
 Accepted manuscript: https://www.osti.gov/servlets/purl/1324468
 
@@ -10,6 +10,7 @@ Accepted manuscript: https://www.osti.gov/servlets/purl/1324468
 The model requires GAMS to run.
 
 To run from the command line:
+
 ``gams jmee_model.gms``
 
 If using a Windows computer, there is a requirement to pass a windows variable to the model for GAMS to locate the datafiles correctly.
