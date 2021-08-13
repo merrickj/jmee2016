@@ -133,7 +133,7 @@ MODEL PLGNRD   /
       carbontrack
       /;
 
-
+* Note that the different wind and solar options above represent resources located at different geographies, with different availability profiles. To run the model with only one solar and one wind option, it can be done using the 'simple' command variable
 $ifthen.simple set simple
 G.UP(p,"wind-62") = 0;
 G.UP(p,"wind-60") = 0;
