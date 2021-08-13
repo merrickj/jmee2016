@@ -4,7 +4,7 @@ $TITLE jmee_model
 * GAMS code for numeric model described in paper submitted to Energy Economics
 * June 2015 & tidied April 2016
 
-* Further tidying for committing to Github, July 2021
+* Further tidying for committing to Github, August 2021
 
 * Model built upon:
 * Master's Thesis of James Merrick, TPP/Course 6, Massachusetts Institute of Technology, 2010
@@ -25,13 +25,7 @@ SETS
 $include "datafiles%slash%tr_jmee.txt"
                     /
    trw(tr) subset of generators (wind)  / wind-60*wind-62  /
-   trn(tr) subset of generators (nuclear)  / nuclear-63/
-   trc(tr) subset of generators (coal)  /coal-63/
-   trg(tr) subset of generators (gas)   /gas-62/
-   trgas(tr) subset of generators (gas)   /gas-62/
    trs(tr) subset of generators (solar)   /solar-60*solar-65,solar-67/
-   trth(tr) subset of generators (thermal)
-					   /nuclear-63,coal-63,gas-62/
    trr(tr) subset of generators (renewables)   /
                                                solar-61*solar-65,
 					       solar-67,
