@@ -22,11 +22,14 @@ This step is not necessary for more recent versions of GAMS.
 ## Choosing different temporal resolutions
 
 The default resolution is 8760. To choose either the `s` or `m` resolutions from the paper, set the ``segmode`` variable, e.g.
+
 ``gams jmee_model.gms --segmode=s``
 
 ## Choosing different solar photovoltaics costs
 
-The default case is the $0.5/W solar photovoltaic capital cost case as outlined in the paper. As outlined in model code, the $1/W case can be ran by setting the variable `instance` to $1/W, e.g. ``gams jmee_model.gms --segmode=m --instance=40``
+The default case is the $0.5/W solar photovoltaic capital cost case as outlined in the paper. As outlined in model code, the $1/W case can be ran by setting the variable `instance` to $1/W, e.g.
+
+``gams jmee_model.gms --segmode=m --instance=40``
 
 
 
