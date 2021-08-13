@@ -27,7 +27,7 @@ The default resolution is 8760. To choose either the `s` or `m` resolutions from
 
 ## Choosing different solar photovoltaics costs
 
-The default case is the $0.5/W solar photovoltaic capital cost case as outlined in the paper. As outlined in model code, the $1/W case can be ran by setting the variable `instance` to $1/W, e.g.
+The default case is the $0.5/W solar photovoltaic capital cost case as outlined in the paper. As outlined in model code, the $1/W case can be ran by setting the variable `instance` to 40, e.g.
 
 ``gams jmee_model.gms --segmode=m --instance=40``
 
