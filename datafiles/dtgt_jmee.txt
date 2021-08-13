@@ -1,0 +1,18 @@
+Table DTGT(tr,atg) Generator data
+              pmx    cvr      FC           cfj        CO2
+*              MW     $        $           $        tonne
+*                    GWh       GW          GW          GWh
+solar-61       0     0.5     11.94e6      2.58e9      0
+solar-62       0     0.5     11.94e6      2.58e9      0
+solar-63       0     0.5     11.94e6      2.58e9      0
+solar-60       0     0.5     11.94e6      2.58e9      0
+solar-64       0     0.5     11.94e6      2.58e9      0
+solar-65       0     0.5     11.94e6      2.58e9      0
+solar-67       0     0.5     11.94e6      2.58e9      0
+wind-61        0     0.5     30.98e6      1.74e9      0
+gas-62         0     41500   11.96e6      .968e9     380
+wind-62        0     0.5     30.98e6      1.74e9      0
+wind-60        0     0.5     30.98e6      1.74e9      0
+coal-63        0     23000   28.15e6      2.22e9     930
+nuclear-63     0     7025    92.04e6      3.82e9      0
+                                     ;

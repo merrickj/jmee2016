@@ -1,0 +1,13 @@
+         solar-61
+         solar-62
+         solar-63
+         solar-60
+         solar-64
+         solar-65
+         solar-67
+         wind-61
+         gas-62
+         wind-62
+         wind-60
+         coal-63
+	 nuclear-63
